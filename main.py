@@ -21,8 +21,8 @@ ads_length = 40
 t = ads_length * sum
 
 """
-Adds the 4 hours between each "sessions" (one session equals 20 gems)
-*not sure this is how it should be done but hey it's there
+# Adds the 4 hours between each "sessions" (one session equals 20 gems)
+# *not sure this is how it should be done but hey it's there
 
 session = ceil(sum / 20)
 t += (session * (4*3600))
